@@ -110,7 +110,10 @@ form button{
         margin: 5px auto;
         font-size: 1rem;
         height: 45px;
-        padding: 0 10px;
+        padding: 10px;
+    }
+    form input {
+        border: 1px solid #fff;
     }
     h1 {
         font-size: 1.5rem;
