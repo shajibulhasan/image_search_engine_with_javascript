@@ -76,8 +76,6 @@ form button{
     border-radius: 5px;
 }
 
-/* ...existing code... */
-
 /* Responsive styles */
 @media (max-width: 900px) {
     #search-result {
@@ -97,7 +95,7 @@ form button{
     #search-result {
         grid-template-columns: 1fr;
         gap: 15px;
-        width: 95%;
+        width: 90%;
         margin: 40px auto 30px;
     }
     form {
@@ -117,10 +115,5 @@ form button{
     h1 {
         font-size: 1.5rem;
         margin: 30px auto 20px;
-    }
-    #show-more-btn {
-        width: 90%;
-        font-size: 1rem;
-        margin: 10px auto 40px;
     }
 }
