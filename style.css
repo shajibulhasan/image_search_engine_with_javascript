@@ -75,3 +75,52 @@ form button{
     object-fit: cover;
     border-radius: 5px;
 }
+
+/* ...existing code... */
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    #search-result {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    form {
+        height: 60px;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 60px auto 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    #search-result {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        width: 95%;
+        margin: 40px auto 30px;
+    }
+    form {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        border-radius: 8px;
+    }
+    form input, form button {
+        width: 90%;
+        border-radius: 8px;
+        margin: 5px auto;
+        font-size: 1rem;
+        height: 45px;
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin: 30px auto 20px;
+    }
+    #show-more-btn {
+        width: 90%;
+        font-size: 1rem;
+        margin: 10px auto 40px;
+    }
+}
